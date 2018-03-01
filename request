@@ -1,0 +1,5 @@
+Request: query { books { error_field } }
+Response:
+Request Method:POST
+Status Code: 200 OK
+{“errors”:[{“message”:”Cannot query field \”error_field\” on type \”Book\”.”,”category”:”graphql”,”locations”:[{“line”:3,”column”:3}]}]}
