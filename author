@@ -1,0 +1,4 @@
+‘author_name’ => [
+ ‘type’ => Type::string(),
+ ‘deprecationReason’ => ‘Deprecated. Use author field’,
+ ],
