@@ -1,0 +1,6 @@
+mutation {
+createUser (name : “John”, username: ”jo123”){
+name
+username
+}
+}
