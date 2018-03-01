@@ -1,0 +1,15 @@
+query {
+ users {
+ name
+ education {
+ degree
+ year
+ }
+ age
+ address {
+ country
+ city
+ street
+ }
+ }
+}
